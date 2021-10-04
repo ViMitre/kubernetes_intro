@@ -110,3 +110,12 @@ Use "kubectl options" for a list of global command-line options (applies to all 
 
 `kubectl get service`
 
+`kubectl create -f nginx-deploy.yml`
+
+`kubectl get deploy`
+
+`kubectl describe deploy deployment-name`
+
+`kubectl get pods`
+
+`kubectl describe pod pod-name`
