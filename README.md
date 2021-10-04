@@ -14,7 +14,7 @@ It groups containers that make up an application into logical units for easy man
 - Open source: Kubernetes is community-led and fully open-source, helping developers and engineers to collaborate and innovate quicker. 
 - Widely-used: Most developers and engineers know Kubernetes, which helps lower the learning curve for companies new to the platform. 
 
-## How it works
+## K8 Architecture
 ![image](https://user-images.githubusercontent.com/88156993/135858803-7f4e107f-1584-4ad8-9bfc-1b120cb1ca15.png)
 ## Features
 
