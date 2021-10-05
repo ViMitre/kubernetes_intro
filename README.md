@@ -110,15 +110,15 @@ Use "kubectl options" for a list of global command-line options (applies to all 
 ### List available services
 `kubectl get service`
 ### Create a resource from a file or from stdin
-`kubectl create -f nginx-deploy.yml`
+`kubectl create -f nginx-deploy.yml`<br>
 *JSON and YAML formats are accepted*
 ### Display one or many resources
-`kubectl get deploy`
-`kubectl get pods`
+`kubectl get deploy`<br>
+`kubectl get pods`<br>
 *Prints a table of the most important information about the specified resources. You can filter the list using a label selector and the --selector flag. If the desired resource type is namespaced you will only see results in your current namespace unless you pass --all-namespaces.*
 ### Show details of a specific resource or group of resources
-`kubectl describe deploy deployment-name`
-`kubectl describe pod pod-name`
+`kubectl describe deploy deployment-name`<br>
+`kubectl describe pod pod-name`<br>
 *Print a detailed description of the selected resources, including related resources such as events or controllers. You may select a single object by name, all objects of that type, provide a name prefix, or label selector.*
 
 
