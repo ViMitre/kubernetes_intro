@@ -108,7 +108,7 @@ Use "kubectl <command> --help" for more information about a given command.
 Use "kubectl options" for a list of global command-line options (applies to all commands).
 ```
 ### List available services
-`kubectl get service`
+`kubectl get service` or `kubectl get svc`
 ### Create a resource from a file or from stdin
 `kubectl create -f nginx-deploy.yml`<br>
 *JSON and YAML formats are accepted*
@@ -120,6 +120,8 @@ Use "kubectl options" for a list of global command-line options (applies to all 
 `kubectl describe deploy deployment-name`<br>
 `kubectl describe pod pod-name`<br>
 *Print a detailed description of the selected resources, including related resources such as events or controllers. You may select a single object by name, all objects of that type, provide a name prefix, or label selector.*
-
+### Delete resources by file names, stdin, resources and names, or by resources and label selector
+`kubectl delete pod pod-name`<br>
+*JSON and YAML formats are accepted. Only one type of argument may be specified: file names, resources and names, or resources and label selector*
 
 
