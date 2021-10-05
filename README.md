@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/88156993/135858556-7c830304-b288-48ff-a137-e442f2d35f33.png)
+![image](https://user-images.githubusercontent.com/88156993/135986966-d371e89b-1a8c-4417-9114-8e7506248e22.png)
+
 # Kubernetes
 ## What is Kubernetes?
 Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
