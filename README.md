@@ -110,7 +110,7 @@ Use "kubectl options" for a list of global command-line options (applies to all 
 ### List available services
 `kubectl get service` or `kubectl get svc`
 ### Create a resource from a file or from stdin
-`kubectl create -f nginx-deploy.yml`<br>
+`kubectl create -f file.yml`<br>
 *JSON and YAML formats are accepted*
 ### Display one or many resources
 `kubectl get deploy`<br>
@@ -123,5 +123,6 @@ Use "kubectl options" for a list of global command-line options (applies to all 
 ### Delete resources by file names, stdin, resources and names, or by resources and label selector
 `kubectl delete pod pod-name`<br>
 *JSON and YAML formats are accepted. Only one type of argument may be specified: file names, resources and names, or resources and label selector*
-
-
+### Edit a resource from the default editor
+`kubectl edit deploy deployment-name`<br>
+*The edit command allows you to directly edit any API resource you can retrieve via the command-line tools. It will open the editor defined by your KUBE_EDITOR, or EDITOR environment variables, or fall back to 'vi' for Linux or 'notepad' for Windows. You can edit multiple objects, although changes are applied one at a time. The command accepts file names as well as command-line arguments, although the files you point to must be previously saved versions of resources.*
