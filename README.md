@@ -132,6 +132,7 @@ Use "kubectl options" for a list of global command-line options (applies to all 
 
 ## NodeApp
 
-![image](https://user-images.githubusercontent.com/88156993/136022264-c9b64328-4db1-4336-9b00-947242495874.png)
+![image](https://user-images.githubusercontent.com/88156993/136207143-55b0ed42-fa02-4569-9130-eb49bab8ffe9.png)
+
 
 
